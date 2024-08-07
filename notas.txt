@@ -1,0 +1,165 @@
+https://dev-devcarloseduardo.pantheonsite.io/wp-login.php
+
+dbatlas password: 2iccCzCMqfc7tyE0
+carloseduardokadu2004
+Xxb0xEexxblUwPfd
+
+docs com tudo para criação de sites:
+https://docs.google.com/document/u/3/?pli=1&tgif=d
+
+
+.page-id-709 h1,h2,h3,h4,h5,p,button,span,a{
+	font-family:'Meteoric' !important;
+}
+
+
+https://910498274999-tfeih2svk2k1prr4i6eogi1tkpl03c9g.apps.googleusercontent.com/
+chave api gmail ascostaengenharia
+para confirmar auth no wordpress necessita de verificação no telefone ale final 
+67 mandar msg para confirmar 
+
+https://mvconcept.com.br/?s=vestido&post_type=product&dgwt_wcas=1,?s=Cropped&post_type=product&dgwt_wcas=1/,?s=Conjunto&post_type=product&dgwt_wcas=1/,?s=Short&post_type=product&dgwt_wcas=1/,?s=Cal%C3%A7a&post_type=product&dgwt_wcas=1/
+
+WORDPRESS + ELEMENTOR + WOOCOMM
+
+*PREOCUPAR-SE COM A VELOCIDADE DO SITE -> PODE SER DETETERIORADA POR CONTA DOS PLUGINS
+BUSCAR FORMAS DE OTIMIZAÇÃO
+
+1.Contratar hospedagem + domínio (escolha do nome, atribuição dos dados ao dominio, verify)
+2. Dominio ativo -> instalar/detectar wordpress -> criar conta (login, email adm, senha)
+3. menu do wordPress instalado em /wp-admin = site no ar!
+4. config das pages (politicas) + seleção/exclusão de temas
+5. INSTALAR PLUGI WOOCOMERCE -> cria as pages + section de products + woocommerce
+6. CADASTRAR PRODUTOS (DETALHES, FOTOS/CARROUSEL, FRETE) + PRODUTOS VAR: GERAR VARIANCIAS
+*slug: nome do produto na url, *edições em massas de produtos em: products->select all-> alterar em massa
+
+7. CRIAR PAGES
+7.1 criar paginas (contact, about us, home) + aparência -> configurar menu e paginas + adaptar template!
+7.2 Pagina de produtos,cart, checkout -> configuradas pelo ShopEngine.
+
+8. CRIAR LAYOUT -> usar elementor free 
+-Config padrões do tema, config cores + fontes globais, no edit with elementor (font: Jost boa para e-commerce)
+
+
+8.1 Baixar plugir elementor header&footer builder -> codar menu + rodapé
+
+8.2 - DICA: edit with elementor -> engrenagem -> elementor full width -> config padding
+aplicar em:
+- página home
+- pag produt individual + todos + carrinho + check out + contact + sobre nós
+- pag politicas, devoluçao e troca, prazos e entrega 
+
+*para linkar menu a divs: 
+-> add menu anchor pelo elementor na section e atribuir id
+-> ir em menus e linkar urldosite/#iddasection
+
+APÓS PAGINAS TODAS ESTILIZADAS E CONFIGURADAS ->
+
+9. MÉTODOS DE PAGAMENTO
+9.1 INSTALAR E CONFIGURAR PLUGIN ASAAS + ASAAS TO BRAZIL(CPF)
+
+config: necessita criar conta no site do ASAAS (dados + ativar conta) + linkar CHAVE API E WEBNOOKS(notificações)
+A partir dai basta realizar as configs em woocomerce-> setting -> payment e habilitar os métodos
++css adicional na page de faturamento
+
+
+10. PLUGIN DE CORREIOS
+- 2 opções:
+CORREIOS -> video no yt + precisa de CNPJ
+MELHOR ENVIO -> video no yt + não precisa de CNPJ
+
+11. PLUGIN DE BOTÃO DO WHATSAPP
+
+12. TESTE + PLUGINS DE OTIMIZAÇÃO OTIMIZAÇÃO
+
+
+FRETE => SUPERFRETE TEM INTEGRAÇÃO
+
+METODO DE PAGAMENTO =>
+
+ELPRO => vai pagar OK
+
+ EU:
+- Deixar fontes + minimalista e moderna:Em menu lateral mobile + nav + titulo produtos - weight 200 com logo preta
+- Testar MVCONCEPT logo nav: COR PRETA
+- PESQUISA: roube o look, como implementar modal com peças da foto clicada
+- Orçamento banners pro site alyson barreto ok
+- Implementar tamanhos
+
+MEL:
+- Pendencia fotos para mvlover
+- Pendencia fotos para carrousel categorias icones
+- Tabela de tamanhos
+
+
+
+function mask(o,f){
+    v_obj=o
+    v_fun=f
+    setTimeout("execmask()",1)
+}
+
+function execmask(){
+    v_obj.value=v_fun(v_obj.value)
+}
+
+function masktel(v){
+    v=v.replace(/\D/g,"");
+    v=v.replace(/^(\d{2})(\d)/g,"($1) $2");
+    v=v.replace(/(\d)(\d{4})$/,"$1-$2");
+    return v;
+}
+
+
+function idcss( el ){
+	return document.getElementById( el );
+}
+
+window.onload = function(){
+    
+    idcss('form-field-phone').setAttribute('maxlength', 15);
+	idcss('form-field-phone').onkeypress = function(){
+		mask( this, masktel );
+	}
+
+
+
+
+
+
+
+Pix -> 0,99 por transação
+
+Boleto -> 0,99 por transação
+
+Débito -> R$ 0,35 + 1,89% = R$-6,02 para um compra de R$300,00
+
+Crédito:
+-> A vista = R$ 0,49 + 1,99% => R$-6,47 para um compra de R$300,00
+-> 2 a 6 parcelas = R$ 0,49 + 2,49%  => R$-7,96 para um compra de R$300,00
+-> 7 a 12 parcelas = R$ 0,49 + 2,99% => R$-9,46 para um compra de R$300,00
+ 
+
+*IDEIAS + PROJETOS + A FAZERES*
+
+DOCKER,PYTHON,SELENIUM:AUTOMATIZA, PANDAS:DADOS -> COMO SUBIR APLICAÇÕES
+
+
+// PROJECT IDEA
+Projeto Imobiliária mostrar a casa + HOSPEDAGEM
+
+
+// POSTS LINKEDIN -> refs no salvo
+Post Estáticos 
+-Dicas de CSS: flexbox, position, background-positions
+-Semantic Tags HTML
+-React Hooks
+- GIT comands + convetional commits
+
+
+
+Posts Video
+Pequenas Aplicações/Projetos que mostram o dominio de determinada tecnologia como: APIS REST, FILTRAGEM DE DADOS COM FIREBASE, 
+ASSINCRONIDADE (ROTAS CRUD).
+
+Projetos Prontos/+ estruturados: PUMP GYM, CLSEEDSHOP, VINIPORT SERVICOS, MINIBLOG.
